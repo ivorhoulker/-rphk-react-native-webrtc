@@ -1,5 +1,5 @@
 {
-  "name": "react-native-webrtc",
+  "name": "@rphk/react-native-webrtc",
   "version": "1.100.1",
   "repository": {
     "type": "git",
@@ -60,5 +60,10 @@
     "android": "https://github.com/jitsi/webrtc/releases/download/v100.0.0/android-webrtc.tgz",
     "ios": "https://github.com/jitsi/webrtc/releases/download/v100.0.0/WebRTC.xcframework.tgz",
     "ios-bitcode": "https://github.com/jitsi/webrtc/releases/download/v100.0.0/WebRTC.xcframework-bitcode.tgz"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "author": "rphk"
 }
