@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.name                = package['name']
   s.version             = package['version']
   s.summary             = package['description']
-  s.homepage            = 'https://github.com/ivorhoulker/react-native-webrtc'
+  s.homepage            = 'https://github.com/ivorhoulker/-rphk-react-native-webrtc'
   s.license             = package['license']
-  s.author              = 'https://github.com/ivorhoulker/react-native-webrtc/graphs/contributors'
+  s.author              = 'https://github.com/ivorhoulker/-rphk-react-native-webrtc/graphs/contributors'
   s.source              = { :git => 'git@github.com:ivorhoulker/react-native-webrtc.git', :tag => 'release #{s.version}' }
   s.requires_arc        = true
 
