@@ -1,8 +1,6 @@
-
-import { NativeModules } from 'react-native';
-
 import MediaStream from './MediaStream';
 import MediaStreamError from './MediaStreamError';
+import { NativeModules } from 'react-native';
 
 const { WebRTCModule } = NativeModules;
 

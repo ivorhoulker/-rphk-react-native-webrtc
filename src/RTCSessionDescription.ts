@@ -1,4 +1,3 @@
-
 export default class RTCSessionDescription {
     _sdp: string;
     _type: string | null;
